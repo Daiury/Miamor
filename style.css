@@ -22,13 +22,13 @@ body::before, body::after {
 }
 
 body::before {
-    background-image: url('https://github.com/Daiury/Miamor/raw/main/miranha.webp');
+    background-image: url('https://raw.githubusercontent.com/Daiury/Miamor/main/miranha.webp');
     left: 0; /* Posiciona à esquerda */
     background-position: center;
 }
 
 body::after {
-    background-image: url('https://github.com/Daiury/Miamor/raw/main/miranha 1.jpeg');    
+    background-image: url('https://raw.githubusercontent.com/Daiury/Miamor/main/miranha-1.jpeg');    
     right: 0; /* Posiciona à direita */
     background-position: center;
 }
