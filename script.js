@@ -19,11 +19,18 @@ const frasesMotivacionais = [
 const cantadaElement = document.getElementById("cantada");
 const botaoGerar = document.getElementById("gerar");
 
+// Verificando se os elementos foram selecionados corretamente
+console.log(cantadaElement);
+console.log(botaoGerar);
+
 // Função para gerar uma frase motivacional aleatória
 function gerarFrase() {
-    const indiceAleatorio = Math.floor(Math.random() * frasesMotivacionais.length);
-    const frase = frasesMotivacionais[indiceAleatorio];
-    cantadaElement.textContent = frase;
+    // Verifica se o array de frases não está vazio
+    if (frasesMotivacionais.length > 0) {
+        const indiceAleatorio = Math.floor(Math.random() * frasesMotivacionais.length);
+        const frase = frasesMotivacionais[indiceAleatorio];
+        cantadaElement.textContent = frase;  // Atualiza o texto da cantada
+    }
 }
 
 // Adicionar evento ao botão
