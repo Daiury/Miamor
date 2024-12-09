@@ -22,18 +22,19 @@ body::before, body::after {
 }
 
 body::before {
-    background-image: url('https://raw.githubusercontent.com/Daiury/Miamor/main/miranha-2.jpeg');
+    background-image: url('https://raw.githubusercontent.com/Daiury/Miamor/main/miranha-1.jpeg');
     left: 0; /* Posiciona à esquerda */
     background-position: center;
     background-size: contain;
 }
 
 body::after {
-    background-image: url('https://raw.githubusercontent.com/Daiury/Miamor/main/miranha-2.jpeg');
+    background-image: url('https://raw.githubusercontent.com/Daiury/Miamor/main/miranha-1.jpeg');
     right: 0; /* Posiciona à direita */
     background-position: center;
     background-size: contain;
 }
+
 
 
 .container {
