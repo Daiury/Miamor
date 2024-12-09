@@ -3,34 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Teste Gerador</title>
+    <title>Mi amor miranha</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div class="container">
-        <p id="cantada">Frase motivacional será exibida aqui.</p>
-        <button id="gerar">Gerar Frase</button>
+        <h1>Meu miranha</h1>
+        <p id="cantada">Para Mi Amor!</p>
+        <button id="gerar">O homem mais incrível que conheci</button>
     </div>
-    <script>
-        // Lista de frases
-        const frasesMotivacionais = [
-            "Acredite, você é mais forte do que pensa.",
-            "Cada passo, por menor que seja, te leva mais perto dos seus sonhos.",
-            "Você merece todo o amor que está vivendo agora."
-        ];
-
-        // Selecionar elementos do DOM
-        const cantadaElement = document.getElementById("cantada");
-        const botaoGerar = document.getElementById("gerar");
-
-        // Função para gerar uma frase motivacional aleatória
-        function gerarFrase() {
-            const indiceAleatorio = Math.floor(Math.random() * frasesMotivacionais.length);
-            const frase = frasesMotivacionais[indiceAleatorio];
-            cantadaElement.textContent = frase;
-        }
-
-        // Adicionar evento ao botão
-        botaoGerar.addEventListener("click", gerarFrase);
-    </script>
+    <script src="script.js"></script>
 </body>
 </html>
