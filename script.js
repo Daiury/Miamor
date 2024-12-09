@@ -9,10 +9,10 @@ const frasesMotivacionais = [
     "Seu valor não depende da opinião dos outros.",
     "Aprender a amar e ser amado é um presente único. Viva isso plenamente.",
     "A ansiedade não define quem você é, ela é apenas uma parte do seu processo.",
-    "Você está construindo um futuro lindo, e ele começa com o agora."
-    " Você é fortii lembra?"
-    "Cada passo, por menor que seja, te leva mais perto dos seus sonhos.",
-    " Hoje orei por você"
+    "Você está construindo um futuro lindo, e ele começa com o agora.",
+    "Você é fortii lembra?",  // Corrigido: adicionei vírgula para separar corretamente
+    "Cada passo, por menor que seja, te leva mais perto dos seus sonhos.",  // Corrigido: adicionei vírgula para separar corretamente
+    "Hoje orei por você"  // Corrigido: adicionei vírgula para separar corretamente
 ];
 
 // Selecionar elementos do DOM
