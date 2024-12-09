@@ -8,16 +8,17 @@ body {
     align-items: center;
     position: relative; /* Necessário para os pseudo-elementos funcionarem */
     color: white; /* Texto em branco para contraste */
+    overflow: hidden; /* Impede que as imagens saiam da tela */
 }
 
 body::before, body::after {
     content: '';
     position: absolute;
     top: 0;
-    width: 300px; /* Ajuste a largura aqui */
+    width: 300px; /* Ajuste a largura das imagens */
     background-size: contain; /* Ajusta para que a imagem se encaixe */
     background-repeat: no-repeat;
-    z-index: -1; /* Fica atrás do conteúdo do body */
+    z-index: -1; /* Fica atrás do conteúdo */
 }
 
 body::before {
@@ -39,6 +40,7 @@ body::after {
     padding: 20px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
     max-width: 90%; /* Limitar a largura no mobile */
+    z-index: 1; /* Garantir que o conteúdo fique sobre as imagens */
 }
 
 h1 {
