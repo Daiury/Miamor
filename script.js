@@ -10,6 +10,9 @@ const frasesMotivacionais = [
     "Aprender a amar e ser amado é um presente único. Viva isso plenamente.",
     "A ansiedade não define quem você é, ela é apenas uma parte do seu processo.",
     "Você está construindo um futuro lindo, e ele começa com o agora."
+    " Você é fortii lembra?"
+    "Cada passo, por menor que seja, te leva mais perto dos seus sonhos.",
+    " Hoje orei por você"
 ];
 
 // Selecionar elementos do DOM
