@@ -10,17 +10,31 @@ body {
     color: white; /* Texto em branco para contraste */
 }
 
-body::before {
+body::before, body::after {
     content: '';
     position: absolute;
-    top: 0;
-    width: 300px; /* Ajuste a largura da imagem */
+    width: 300px; /* Ajuste a largura aqui */
     background-size: contain; /* Ajusta para que a imagem se encaixe */
     background-repeat: no-repeat;
-    z-index: -1; /* Fica atrás do conteúdo */
-    left: 0; /* Posiciona à esquerda */
+    z-index: -1; /* Fica atrás do conteúdo do body */
+}
+
+body::before {
     background-image: url('https://raw.githubusercontent.com/Daiury/Miamor/main/miranha-1.jpeg');
+    left: 0; /* Posiciona à esquerda */
     background-position: center;
+    background-size: contain;
+    top: 0;
+    bottom: 50%;
+}
+
+body::after {
+    background-image: url('https://raw.githubusercontent.com/Daiury/Miamor/main/miranha-2.jpeg');
+    right: 0; /* Posiciona à direita */
+    background-position: center;
+    background-size: contain;
+    top: 50%;
+    bottom: 0;
 }
 
 .container {
@@ -30,12 +44,17 @@ body::before {
     padding: 20px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
     max-width: 90%; /* Limitar a largura no mobile */
-    z-index: 1; /* Garantir que o conteúdo fique sobre as imagens */
 }
 
 h1 {
     color: #e43f25; /* Cores do SPFC */
     font-size: 2em; /* Tamanho da fonte maior */
+}
+
+@keyframes magical {
+    0% { opacity: 0; transform: translateY(-20px); }
+    50% { opacity: 1; transform: translateY(10px); }
+    100% { opacity: 0; transform: translateY(0); }
 }
 
 #cantada {
@@ -59,11 +78,12 @@ button:hover {
     background-color: #c92d1f; /* Tom mais escuro para hover */
 }
 
+/* Media Queries para Responsividade */
 @media (max-width: 600px) {
     h1 {
         font-size: 1.5em; /* Reduzir tamanho do título */
     }
-
+    
     #cantada {
         font-size: 1.2em; /* Reduzir tamanho do texto da cantada */
     }
