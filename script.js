@@ -25,3 +25,6 @@ function gerarFrase() {
 
 // Adicionar evento ao botão
 botaoGerar.addEventListener("click", gerarFrase);
+
+// Para verificar se o script foi carregado corretamente
+console.log("Script carregado corretamente!");
