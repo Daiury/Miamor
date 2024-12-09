@@ -22,7 +22,7 @@ body::before, body::after {
 }
 
 body::before {
-    background-image: url('https://raw.githubusercontent.com/Daiury/Miamor/main/miranha-1.jpeg');
+    background-image: url('https://raw.githubusercontent.com/Daiury/Miamor/main/miranha-2.jpeg');
     left: 0; /* Posiciona à esquerda */
     background-position: center;
     background-size: contain;
