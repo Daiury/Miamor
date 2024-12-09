@@ -1,7 +1,7 @@
 // Lista de frases motivacionais
 const frasesMotivacionais = [
     "Acredite, você é mais forte do que pensa.",
-    " Tenho tanto orgulho de você"
+    "Cada passo, por menor que seja, te leva mais perto dos seus sonhos.",
     "Você merece todo o amor que está vivendo agora.",
     "Deixe o passado para trás e abrace o presente com coragem.",
     "Um dia de cada vez, um momento de cada vez.",
@@ -9,9 +9,10 @@ const frasesMotivacionais = [
     "Seu valor não depende da opinião dos outros.",
     "Aprender a amar e ser amado é um presente único. Viva isso plenamente.",
     "A ansiedade não define quem você é, ela é apenas uma parte do seu processo.",
-    "Você é fortii",
-    "Hoje orei por você",
-    "Você está construindo um futuro lindo, e ele começa com o agora."
+    "Você está construindo um futuro lindo, e ele começa com o agora.",
+    "Você é fortii lembra?",
+    "Cada passo, por menor que seja, te leva mais perto dos seus sonhos.",
+    "Hoje orei por você."
 ];
 
 // Selecionar elementos do DOM
