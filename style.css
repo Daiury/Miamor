@@ -8,6 +8,10 @@ body {
     align-items: center;
     position: relative; /* Necessário para os pseudo-elementos funcionarem */
     color: white; /* Texto em branco para contraste */
+    background-image: url('https://raw.githubusercontent.com/Daiury/Miamor/main/miranha-3.jpeg'); /* Adiciona o fundo total */
+    background-size: cover; /* Faz com que a imagem cubra toda a tela */
+    background-position: center; /* Centraliza a imagem */
+    background-repeat: no-repeat; /* Impede repetição da imagem */
 }
 
 body::before, body::after {
@@ -34,8 +38,6 @@ body::after {
     background-position: center;
     background-size: contain;
 }
-
-
 
 .container {
     text-align: center;
